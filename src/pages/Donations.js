@@ -8,8 +8,6 @@ function Donations() {
     
     const paypalRef = React.useRef();
 
-    const paypalClientId = '';
-
     return(
         <div className="donations">
             <h1> Donations</h1>
