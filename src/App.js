@@ -7,6 +7,8 @@ import './style/styling.css';
 import MainPage from './pages/MainPage';
 import ResourcesPage from './pages/ResourcesPage';
 import Donations from './pages/Donations';
+import BackgroundPage from "./pages/BackgroundPage";
+import ProgramsScholarships from "./pages/ProgramsScholarships";
 
 //components
 import Menu from "./components/Menu";
@@ -19,6 +21,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<MainPage/>}/>
           <Route path="/resources" element={<ResourcesPage/>}/>
+          <Route path="/programs" element={<ProgramsScholarships/>}/>
+          <Route path="/background" element={<BackgroundPage/>}/>
           <Route path="/donations" element={<Donations/>}/>
         </Routes>
       </BrowserRouter>

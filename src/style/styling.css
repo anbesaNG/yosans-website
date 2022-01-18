@@ -1,43 +1,82 @@
 :root {
-    background-color: #FDF0D5;
     color: #232130;
     padding-bottom: 2rem;
 }
 .app {
     background-color: #FDF0D5;
-
 }
-.fake-paragraph {
+p {
     font-size: 1.4rem;
-    padding: 1rem;
-    /* background-color: bisque; */
+    padding-left: 6rem;
+    padding-right: 3rem;
+}
+p > a:not(.unstyled-link) {
+    background-color: #232130;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
 }
 
+
+h1, h2, h3 {
+    padding-left: 4rem;
+    padding-right: 3rem;
+}
 .titles {
     padding: 2rem;
 }
-.donations {
+
+.break-line {
+    display: block;
+    width: 70%;/*or whatever width you want the effect of <hr>*/
+    border-top: 1px solid #ccc;
+    margin: auto;
+}
+
+.donations-page {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 1rem;
-    width: 90%;
-    margin: 0 auto;
+}
+.donations-input, .donations-input > input {
+    font-size: 1.6rem;
+}
+.donation-input-button {
+    margin: auto;
+}
+.menu-page {
+    display: flex;
+    flex-direction: row;
+    background-color: #232130;
+    color: #ffffff;
+}
+.project-title {
+    flex: initial;
+    margin: auto;
+    padding-left: 3rem;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
 }
 .menu {
-    display: flex;
+    /* display: flex; */
+    flex: auto;
     flex-wrap: wrap;
     justify-content: end;
-    background-color: #C6D8D3;
     align-items: flex-end;
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: right;
 }
-.menu-item {
+.menu-item, .menu-item > a{
     font-size: 1.4rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    color: #ffffff;
+    text-decoration: none;
 }
 .video-responsive {
     overflow: hidden;
