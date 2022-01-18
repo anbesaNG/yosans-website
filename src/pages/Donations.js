@@ -111,9 +111,9 @@ function Donations() {
             
             <h3> Paypal donations coming soon</h3>
 
-            Contact Us 
+            <h2>Contact Us</h2> 
 
-We want to hear from you whether you are a student in Sudan or an individual abroad, who would like to volunteer their time and expertise! Send us a message using the box below or email us at fereproject@gmail.com.
+            <p>We want to hear from you whether you are a student in Sudan or an individual abroad, who would like to volunteer their time and expertise! Send us a message using the box below or email us at <a className="unstyled-link" href="mailto:fereproject@gmail.com">fereproject@gmail.com</a>.</p>
 
             {/* <div className="donation-input-button">
                 <DollarAmountForm 
