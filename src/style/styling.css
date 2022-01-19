@@ -2,8 +2,78 @@
     color: #232130;
     padding-bottom: 2rem;
 }
+.body{
+    overflow-x: hidden;
+}
 .app {
     background-color: #FDF0D5;
+}
+
+/* small screen  */
+@media (width <= 1300px) {   
+    body p {
+        font-size: 1.2rem;
+        padding-left: 4rem;
+        padding-right: 2rem;
+    }
+    
+    body h1, h2, h3 {
+        padding-left: 4rem;
+        padding-right: 2rem;
+    }
+    body .project-title {
+        flex: initial;
+        margin: auto;
+        padding-left: 1rem;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+.menu-drop {
+    position: absolute;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    right: 0;
+}
+.menu-button {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu-button:hover {
+    cursor: pointer;
+}
+body .menu-item > a{
+    font-size: 1rem;
+    margin-top: .2rem;
+    background-color: #232130;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    float: right;
+}
+
+.menu {
+    justify-content: end;
+    align-items: flex-end;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: right;
+}
+.menu-item, .menu-item > a{
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #ffffff;
+    text-decoration: none;
 }
 p {
     font-size: 1.4rem;
@@ -20,18 +90,14 @@ p > a:not(.unstyled-link) {
     border-radius: 4px;
 }
 
-
 h1, h2, h3 {
     padding-left: 4rem;
     padding-right: 3rem;
 }
-.titles {
-    padding: 2rem;
-}
 
 .break-line {
     display: block;
-    width: 70%;/*or whatever width you want the effect of <hr>*/
+    width: 70%;
     border-top: 1px solid #ccc;
     margin: auto;
 }
@@ -52,6 +118,7 @@ h1, h2, h3 {
     flex-direction: row;
     background-color: #232130;
     color: #ffffff;
+    position: relative;
 }
 .project-title {
     flex: initial;
@@ -61,23 +128,8 @@ h1, h2, h3 {
     text-align: center;
     font-weight: bold;
 }
-.menu {
-    /* display: flex; */
-    flex: auto;
-    flex-wrap: wrap;
-    justify-content: end;
-    align-items: flex-end;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    text-align: right;
-}
-.menu-item, .menu-item > a{
-    font-size: 1.4rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    color: #ffffff;
-    text-decoration: none;
-}
+
+/* embedded video style  */
 .video-responsive {
     overflow: hidden;
     padding-bottom: 56.25%;

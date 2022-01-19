@@ -1,5 +1,6 @@
 {
-  "name": "yosans-website",
+  "name": "fere-project",
+  "homepage": "http://fereproject.reclaim.hosting",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
