@@ -3,7 +3,7 @@ import '../style/styling.css'
 
 function ProgramsScholarships (){
     return (
-        <div className='links'>
+        <div className='page'>
             <p>List of programs and scholarships students can apply for. These links are listed in the order of their receptiveness and my familiarity with the programs.</p>
             <br/>
             <p><a href="https://windle.org.uk/undergraduate-scholarships-sudan">Windle Trust International</a></p>

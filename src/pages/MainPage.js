@@ -1,11 +1,10 @@
 import React from 'react';
 import '../style/styling.css';
-import YouTubeEmbed from '../components/YouTubeEmbed';
 
 function MainPage() {
 
     return (
-        <div className='whole-app'>
+        <div className='page'>
             <h1>Objective</h1>
             <p>Fere Project  aims to expand higher education acceptance and retention in the Eritrean refugee youth population located in Sudan. This website serves as a centralized database of international and domestic opportunities that students might not be aware of.</p>
             <p>For students: Under the resources tab, we have posted information on how to craft your application profile so that you are one of the competitive candidates wherever you choose to apply. We have also posted a few tips on how to prepare for interviews. In addition, we will constantly research and post scholarship opportunities, undergraduate and masters programs that you qualify for.</p>

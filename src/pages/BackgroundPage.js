@@ -3,7 +3,7 @@ import '../style/styling.css';
 
 const BackgroundPage = () => {
     return (
-        <div className='background-page'>
+        <div className='page'>
             <h1>Background</h1>
             <p>Due to the humanitarian and political crisis, the majority of Eritreans are forced to flee Eritrea. Since around 2010, the flow of unaccompanied minors from Eritrean has significantly increased, which has become the topic of international concern. Until a few years ago, Eritreans who fled Eritrea moved along four major routes: to Yemen and Saudi Arabia;  through Sudan and Egypt into Israel; through Kenya to South Africa; through Sudan, Libya and Ethiopia before crossing the Mediterranean Sea to Italy. Due to migration restrictions in Israel and conflict with Yemen, the northwest route to Europe has become the viable option. As a result, Sudan has become a host to a large population of international migrants and refugees in addition to internally displaced individuals. It has also become one of the key transit points for those migrating to neighboring countries. 
 </p>
