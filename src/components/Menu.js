@@ -9,7 +9,7 @@ function Menu() {
     return(
         <div className="menu-page">
             <span className="project-title">Fere Project</span>
-            <div className="menu">
+            <div className="menu-small">
                 <span 
                     className="menu-button"
                     onClick={() => setShowMenu(!showMenu)}
@@ -18,25 +18,21 @@ function Menu() {
                     Menu
                 </span> 
                 {showMenu && <div className="menu-drop">
-                    <span className="menu-item">
-                        <Link to="/">Home</Link>
-                    </span>
-                    <span className="menu-item">
-                        <Link to="/resources">Resources</Link>
-                    </span>
-                    <span className="menu-item">
-                        <Link to="/programs">Programs and Scholarships</Link>
-                    </span>
-                    <span className="menu-item">
-                        <Link to="/donations">Support Fere Project</Link>
-                    </span>
-                    <span className="menu-item">
-                        <Link className="menu-item" to="/background">Background</Link>
-                    </span>
-                    <span className="menu-item">
-                        <Link className="menu-item" to="/contact">Contact Us</Link>
-                    </span>
+                    <Link className="menu-item" to="/">Home</Link>
+                    <Link className="menu-item" to="/resources">Resources</Link>
+                    <Link className="menu-item" to="/programs">Programs and Scholarships</Link>
+                    <Link className="menu-item" to="/donations">Support Fere Project</Link>
+                    <Link className="menu-item" to="/background">Background</Link>
+                    <Link className="menu-item" to="/contact">Contact Us</Link>
                 </div>}
+            </div>
+            <div className="menu-wide">
+                <Link className="menu-item"  to="/">Home</Link>
+                <Link className="menu-item" to="/resources">Resources</Link>
+                <Link className="menu-item" to="/programs">Programs and Scholarships</Link>
+                <Link className="menu-item" to="/donations">Support Fere Project</Link>
+                <Link className="menu-item" to="/background">Background</Link>
+                <Link className="menu-item" to="/contact">Contact Us</Link>
             </div>
         </div>
     );
