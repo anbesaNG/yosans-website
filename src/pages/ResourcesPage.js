@@ -11,10 +11,13 @@ function ResourcesPage (){
             <YouTubeEmbed embedId='tNg3qhbFKWs?list=PL0t3__pJqu5DsKsaArnjlI0acovkCZn-2'/>
             <YouTubeEmbed embedId='QMOpRcW8CBA?list=PL0t3__pJqu5DsKsaArnjlI0acovkCZn-2'/>
             <YouTubeEmbed embedId='hUxyA9qD8kE?list=PL0t3__pJqu5DsKsaArnjlI0acovkCZn-2'/>
+        
             <p><a href='https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en'>https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en</a></p>
             <p><a href='https://blog.reedsy.com/show-dont-tell/'>https://blog.reedsy.com/show-dont-tell/</a></p>
+        
+        
             <p style={{"fontStyle":"italic"}}>
-                <h3>Typical Essay Questions</h3>
+            <h3>Typical Essay Questions</h3>
                 <ol>
                     <li>Describe an incident or time when you took initiative in the face of a challenge that did not work out as you had hoped or expected. What actions did you take and what did you learn from that experience?</li>
                     <li>What is your favourite subject at school and why?</li>
@@ -25,6 +28,8 @@ function ResourcesPage (){
                     <li>Tell us about a time when you had to do something that wasn’t aligned with your values or beliefs and what you took from that experience.</li>
                 </ol>
             </p>
+                    
+                  
             <h2>Admission Interviews</h2>
             <p>Although interview questions vary, these are one of the most common questions you will come across. Practice your answers with your friends, families and trusted teachers. It will allow you to effectively communicate your thoughts. </p>
             <YouTubeEmbed embedId='ndHqOaGY3K8?list=PL0t3__pJqu5DsKsaArnjlI0acovkCZn-2'/>
@@ -42,15 +47,22 @@ function ResourcesPage (){
                     <li>What are your career goals and how do you plan to achieve them?</li>
                 </ol>
             </p>
+                    
+                    
+                    
             <h2>Letter of Recommendation </h2>
             <p><strong>Information for students:</strong> If a program requires a letter of recommendation from a professional, choose someone who knows you well and can positively reflect on your qualities. You should also notify them at least two weeks in advance.</p>
-            <p><strong>Information for teachers/professionals:</strong> A letter of recommendation is a letter that vouches for the student’s educational or professional performance. Most programs have specific questions they would like you to answer. If you have not written a letter of recommendation before, I have included a link below that shows you what a letter of recommendation looks like. </p>
+            <p><strong>Information for teachers/professionals:</strong> A letter of recommendation is a letter that vouches for the student’s educational or professional performance. Most programs have specific questions they would like you to answer. If you have not written a letter of recommendation before, I have included a link below that shows you an ideal example of letter of recommendation. </p>
             <p><a href="https://careerservices.pace.edu//sites/default/files/files/pdf/writing-letters-of-recommendation">https://careerservices.pace.edu//sites/default/files/files/pdf/writing-letters-of-recommendation</a></p>
             <p>For a more quick read, I direct you to this article, which lists points you should keep in mind as you write a recommendation letter. </p>
             <p><a href="https://www.thebalancecareers.com/sample-college-references-2062901">https://www.thebalancecareers.com/sample-college-references-2062901</a></p>
+          
+            
+            
             <p>An example of essay responses from a student.</p>
             <p style={{"fontStyle":"italic"}}>
-                <h3>Typical Essay Questions</h3>
+                
+                
                 <p><strong>What is your favorite subject at school and why?</strong></p>
                 <p>Physics is my favorite subject. It is so pertinent in my daily life. It affects us everyday and is the core of our reality. It isn't as abstract as mathematics, and I've found it to be satisfying to find a conclusion to a problem. Then, I read more about it. I admire how much scientists like Einstein claimed the one sentence most people refused to say, "I don't know". It was an eye opening experience for me, because in a world where people hate to be wrong or pretend like they know everything, scientists swim against that current. Additionally, I've always been quite curious about the 'why' in life and physics helps me answer that 'why'. I love that we don't have to memorise physics only to forget it over the next few days. Its concept pushes me to understand physics. Science is not just dealing with far fetched theories and solving hypotheticals, it's about truth. Galileo Galilei, a firm believer in the truth, died in the name of the truth rather than living a lie. Knowledge is the light I find in the darkness.</p>
                 <p>2020 has been a challenging year for Sudan and the rest of the world. Describe a local or global social justice issue that has been prominent this year. Explain its significance to you and the steps that could have been taken to identify a solution.</p>
@@ -65,7 +77,6 @@ function ResourcesPage (){
                 <p>A few years ago, I was watching Harry Potter with my cousin. He turned to me and said, ''You know, you are so lucky to watch this movie without Arabic subtitles". It made me quite upset. I told him I'd teach him and he agreed. We started from scratch to learn English. Witnessing his progress and his will to learn motivated me in return. Then, we started watching English cartoon films together without Arabic subtitles. Cartoons are a great way to understand, because of the exaggerated expressions. He was improving, but he was still self conscious to speak English in public. I told him to gather his friends, so that they can learn with him. I began an English course with his friends, which allowed for more comfortability. His friends, who were planning to travel abroad, were engaged, as well. My time tutoring my cousin and his friends in the language of English and seeing their improvement was rewarding.</p>
             </p>
             <p>Sara Ahmed is a freshman at Comboni College of Science and Technology studying Information Technology (Accounting). </p>
-            <p><strong>A piece of advice for students:</strong> Grades are important, but they are not everything. Given the instability of the country, certain things transpired in a way that you might not have expected. Don’t let that discourage you. </p>
             <p>If you need individualized support on how to brainstorm, structure, draft and revise essays, please contact us between June through August and December through January.</p>
         </div>
     );
